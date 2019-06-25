@@ -1,0 +1,181 @@
+#!/data/data/com.termux/files/usr/bin/bash
+# JANGAN GANTI COPYRIGHT ASLI NGENTOT!!!
+# Copyright Mr.Rm19
+# GAUSH RECODE ANJING Gabisa bikin kreasi sendiri ya?
+# DSR ScriptKiddies
+clear
+
+blue='\e[0;34'
+cyan='\e[0;36m'
+green='\e[0;34m'
+okegreen='\033[92m'
+lightgreen='\e[1;32m'
+white='\e[1;37m'
+red='\e[1;31m'
+yellow='\e[1;33m'
+
+###################################################
+# CTRL C
+###################################################
+trap ctrl_c INT
+ctrl_c() {
+clear
+echo -e $red"[#]> (Ctrl + C ) Detected, Trying To Exit ... "
+sleep 1
+echo ""
+echo -e $green"[#]> Terima kasih sudah make tools saya ... "
+sleep 1
+echo ""
+echo -e $white"[#]> Mr.Rm19 in here!!!!! ... "
+read enter
+exit
+}
+
+echo -e $red"
+__________  __        __
+/_  __/ __ \/ /  ___  / /  ___ _______
+ / / / /_/ / /__/ _ \/ /__/ -_) __(_-<  author : Mr.Rm19
+/_/  \____/____/\___/____/\__/_/ /___/ ramdan19id@gmail.com
+008 - c4uR - Mrs.4ul14 - k4m1hax0r - ./Serizawa
+"
+echo ""
+echo -e $green" 01) Com Fabrik Auto exploiter"
+echo -e $green" 02) Com Fox contact Auto exploiter"
+echo -e $green" 03) Download File Apapun with c++"
+echo -e $green" 04) Hashkiller"
+echo -e $green" 05) Auto exploit drupal"
+echo -e $green" 06) CBT Auto exploiter"
+echo -e $green" 07) Magento add admin auto exploiter"
+echo -e $green" 08) Webdav mass auto exploiter"
+echo -e $green" 09) Remote hidden shell"
+echo -e $green" 10) Revslider auto exploiter"
+echo -e $green" 11) Com sexy auto exploiter"
+echo -e $white""
+read -p "[root@Mr.Rm19:~#]>" Rm19;
+
+if [ $Rm19 = 01 ] || [ $Rm19 = 01 ]
+then
+clear
+echo -e $green" installing com fabrik..."
+sleep 1
+apt update && apt upgrade
+pkg install python2
+pip2 install requests
+pip2 install urllib
+pip2 install sys
+curl -O https://schooldep.000webhostapp.com/tololers/fabrik.py
+echo -e $green" Sukses!"
+echo -e $green" cara pakai : python2 fabrik.py"
+fi
+
+if [ $Rm19 = 02 ] || [ $Rm19 = 02 ]
+then
+clear
+echo -e $green" installing com foxcontact"
+pkg install python2
+curl -O https://schooldep.000webhostapp.com/tololers/contact.py
+echo -e $green" Sukses!"
+echo -e $green" cara pakai : python2 contact.py"
+fi
+
+if [ $Rm19 = 03 ] || [ $Rm19 = 03 ]
+then
+clear
+echo -e $green" Installing Downloader "
+sleep 1
+apt update && apt upgrade
+pkg install clang
+pkg install git
+git clone https://github.com/Rmdn19id/downloader
+echo -e $green" done! "
+echo -e $green" cara gunakan : cd downloader"
+echo -e $green" g++ ramdanganteng.cpp -o ramdanganteng.exe"
+fi
+
+if [ $Rm19 = 04 ] || [ $Rm19 = 04 ]
+then
+clear
+echo -e $green" installing hashkiller"
+sleep 1
+pkg install python2
+pip2 install requests
+curl -O https://schooldep.000webhostapp.com/tololers//hashkiller.py
+echo -e $green"Sukses! "
+echo -e $green"cara pakai : python2 hashkiller.py"
+fi
+
+if [ $Rm19 = 05 ] || [ $Rm19 = 05 ]
+then
+clear
+echo -e $green" instaling auto exploit drupal"
+sleep 1
+pkg install python2
+pkg install python
+curl -O https://schooldep.000webhostapp.com/tololers/drupal.py
+echo -e $green"Sukses!"
+echo -e $green" cara pakai : python2 drupal.py"
+fi
+
+if [ $Rm19 = 06 ] || [ $Rm19 = 06 ]
+then
+clear
+echo -e $green" installing cbt auto exploit"
+sleep 1
+pkg install python2
+curl -O https://schooldep.000webhostapp.com/tololers/cbt.py
+echo -e $green"Sukses!"
+echo -e $green" cara pakai : python2 cbt.py"
+fi
+
+if [ $Rm19 = 07 ] || [ $Rm19 = 07 ]
+then
+clear
+echo -e $green" installing magento add admin "
+sleep 1
+pkg install python2
+curl -O https://schooldep.000webhostapp.com/tololers/magentoadd.py
+echo -e $green"Sukses!"
+echo -e $green" cara pakai : python2 magentoadd.py"
+fi
+
+if [ $Rm19 = 08 ] || [ $Rm19 = 08 ]
+then
+clear
+echo -e $green" instaling webdav mass exploiter"
+sleep 1
+pkg install python2
+curl -O https://schooldep.000webhostapp.com/tololers/webdav.py
+echo -e $green"Sukses!"
+echo -e $green" cara pakai : python2 webdav.py"
+fi
+
+if [ $Rm19 = 09 ] || [ $Rm19 = 09 ]
+then
+clear
+echo -e $green" instaling remote hiden shell"
+sleep 1
+pkg install python2
+curl -O https://schooldep.000webhostapp.com/tololers/remoteshell.py
+echo -e $green"Sukses!"
+echo -e $green" cara pakai : python2 remoteshell.py"
+fi
+
+if [ $Rm19 = 10 ] || [ $Rm19 = 10 ]
+then
+clear
+echo -e $green" instaling revslider exploiter "
+pkg install python
+curl -O https://schooldep.000webhostapp.com/tololers/revslider.py
+echo -e $green"SukSes!"
+echo -e $green" cara pakai : python revslider.py"
+fi
+
+if [ $Rm19 = 11 ] || [ $Rm19 = 11 ]
+then
+clear
+echo -e $green" instaling com sexy"
+pkg install python2
+curl -O https://schooldep.000webhostapp.com/tololers//comsexy.py
+echo -e $green" Sukses!"
+echo -e $green" cara pakai : python2 comsexy.py"
+fi
